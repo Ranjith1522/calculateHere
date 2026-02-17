@@ -1,0 +1,13 @@
+.header-main {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: 05px;
+    padding: 10px;
+    background-color: rgb(179, 138, 51);
+    border-radius: 5px;
+}
+
+.button {
+
+}
