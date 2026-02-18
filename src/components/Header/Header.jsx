@@ -1,6 +1,11 @@
+import { useState } from 'react';
 import './Header.css'
+import Login from './Login/Login';
 
 function Header() {
+
+   const [showLogin, setshowLogin] = useState(false);
+
     return<>
     <div className="header-main">
         <div className="nav-left">
@@ -12,8 +17,10 @@ function Header() {
             <button className='btn'>Insights</button>
         </div>
         <div className="nav-right">
-            <button className='btn'>Login</button>
+            <button className='btn' onClick={() => setshowLogin(true)}>Login</button>
+            {showLogin && <Login onClose={() => setshowLogin(false)} />}
         </div>
+           
     </div>
     </>
 }
