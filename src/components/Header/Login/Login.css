@@ -17,7 +17,7 @@
     height: 400px;
     max-height: 80vh;
     padding: 25px;
-    background-color: rgba(248, 109, 186, 0.566);
+    background: linear-gradient(to right, #ff512f, #dd2476);
     border-radius: 5px;
     align-items: center;
 }
@@ -29,10 +29,14 @@
 
 .userinput{
     height: 30px;
+    padding: 5px;
+   justify-content: center;
 }
 
 .userpassword {
     height: 30px;
+     padding: 5px;
+     justify-content: center;
 }
 
 .userlogin {

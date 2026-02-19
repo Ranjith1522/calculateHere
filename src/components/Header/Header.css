@@ -4,6 +4,6 @@
     justify-content: space-between;
     margin: 05px;
     padding: 10px;
-    background-color: rgb(179, 138, 51);
+    background: linear-gradient(to right, #f5330d, #dd2476);
     border-radius: 5px;
 }
