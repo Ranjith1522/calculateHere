@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './Header.css'
 import Login from '../Login/Login'
+import irctcc from '../../assets/irctcc.png'
 
 function Header() {
 
@@ -9,7 +10,7 @@ function Header() {
     return<>
     <div className="header-main">
         <div className="nav-left">
-            <img alt="irctc -logo"></img>
+            <img className='logo-img' src={irctcc} alt="irctc -logo"></img>
         </div>
         <div className="nav-centre">
             <button className='btn'>Contact</button>

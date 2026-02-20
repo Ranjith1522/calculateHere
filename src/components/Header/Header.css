@@ -7,3 +7,9 @@
     background: linear-gradient(to right, #f5330d, #dd2476);
     border-radius: 5px;
 }
+
+.logo-img {
+    height: 70px;
+    width: 55px;
+    border-radius: 5px;
+}
