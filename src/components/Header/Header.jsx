@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Header.css'
-import Login from './Login/Login';
+import Login from '../Login/Login'
 
 function Header() {
 
@@ -9,7 +9,7 @@ function Header() {
     return<>
     <div className="header-main">
         <div className="nav-left">
-            <img src="https://www.presentations.gov.in/logos/indian-railway-catering-and-tourism-corporation/" alt="irctc -logo"></img>
+            <img alt="irctc -logo"></img>
         </div>
         <div className="nav-centre">
             <button className='btn'>Contact</button>
