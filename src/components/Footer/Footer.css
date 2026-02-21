@@ -1,0 +1,15 @@
+.footer-main {
+    display: flex;
+    /* flex-direction: column; */
+    background:linear-gradient(to right,rgb(209, 229, 95),rgb(148, 237, 148));
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.footer-left {
+   
+}
+
+.footer-right {
+    
+}
