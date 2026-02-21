@@ -1,4 +1,5 @@
 .footer-main {
+    height: 100px;
     display: flex;
     /* flex-direction: column; */
     background:linear-gradient(to right,rgb(209, 229, 95),rgb(148, 237, 148));

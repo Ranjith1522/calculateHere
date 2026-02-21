@@ -1,0 +1,4 @@
+.dashboard-main {
+    background: linear-gradient(to right,rgb(238, 226, 226),rgb(239, 250, 239));
+    min-height: 90vh;
+}
