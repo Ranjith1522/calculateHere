@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import './Login.css'
+import './Login.css';
+import axios from 'axios';
 
 function Login({onClose}) {
 
@@ -10,6 +11,19 @@ function Login({onClose}) {
         if(!username || !password) {
             alert("Please enter user name and password");
             return;
+        } 
+        else {
+            axios.get('https://6998aeb3d66520f95f183716.mockapi.io/users')
+            .then(res =>{
+                const users = res.data;
+                const user = users.find(u => u.username === username && u.password === password);
+                if(user) {
+                    console.log("success");
+                } else {
+                    console.log("User not found");
+                }
+
+            })
         }
         console.log("Login button clicked");
     }
